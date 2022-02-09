@@ -1,0 +1,60 @@
+.forecast{
+    flex-flow:initial;
+    
+
+    &-title{
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    &-items{
+        display: flex;
+        overflow-x: scroll;
+
+        /*width*/
+        &::-webkit-scrollbar{
+            width: 10px;
+        }
+        &::-webkit-scrollbar-track{
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+        &::-webkit-scrollbar-thumb{
+            background: #EC471A;
+            border-radius: 5px;
+        }
+        &::-webkit-scrollbar-thumb:hover{
+            background: #555;
+        }
+    }
+
+    &-item{
+        padding: 10px;
+        border-right: 1px solid #b4b4b4;
+        margin-bottom: 10px;
+
+        &:last-of-type{
+            border-right: 0px;
+        }
+
+        &__date{
+            margin: 0;
+            color: #b4b4b4;
+        }
+        &__hour{
+            margin: 0;
+            color: #b4b4b4;
+        }
+        &__temp{
+            margin: 0;
+        }
+        
+
+        &__description{
+            margin:0;
+        }
+
+
+
+    }
+}
