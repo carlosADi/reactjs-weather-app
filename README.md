@@ -1,3 +1,14 @@
+# Info on this app
+
+React JS
+ReactJS app with connection to OpenWeatherMap API.
+After inserting the City you want to get the temperature of:
+- you can choose the degree type (Celsius or Fahreneit);
+- It gives the current Weather of the day;
+- A Line Chart of the evolution of the temperature during the current day (I used Chart.JS for this);
+- And it also gives the temperature of the next 5 days;
+- This App is fully responsive.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
