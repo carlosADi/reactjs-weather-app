@@ -28,7 +28,7 @@ class SimpleMap extends React.Component{
         const WrappedMap = withScriptjs(withGoogleMap(Map));
         return(
             <div>
-                <WrappedMap googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyDvPpfrK54_dI7EQ3rpoAsZGLJBNJa8hxA&callback=initMap`}/>
+                <WrappedMap googleMapURL={`https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap`}/>
             </div>
         );
     }
